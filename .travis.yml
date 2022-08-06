@@ -17,6 +17,6 @@ deploy:
   provider: pypi
   username: "__token__"
   password: "$PYPI_TOKEN"
+  edge: true # opt in to dpl v2
   on:
     branch: master
-    python: 3.6
