@@ -14,7 +14,7 @@ sgb-ftso-contracts
 .. image:: https://img.shields.io/github/v/tag/chuckb/sgb-ftso-contracts
    :target: https://www.github.com/chuckb/sgb-ftso-contracts
 
-A small Python library to quickly instantiate Flare Time Series Oracle (FTSO) contracts on the Songbird network.
+A small Python library to quickly instantiate `Flare Time Series Oracle (FTSO) contracts <https://gitlab.com/flarenetwork/flare-smart-contracts/-/tree/Songbird-deploy-with-contract-addresses>`_ on the Songbird network.
 
 Installation
 ------------
@@ -56,6 +56,14 @@ How to get prices of crypto assets tracked by the Songbird network:
    :caption: Usage
 
    api
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Examples
+
+   source/examples/delegation
+   source/examples/encryption
+   source/examples/events
 
 Indices and tables
 ==================
