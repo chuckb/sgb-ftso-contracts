@@ -2,7 +2,7 @@ import unittest
 from sgb_ftso_contracts import *
 from web3 import Web3
 
-rpcurl = "https://songbird.towolabs.com/rpc"
+rpcurl = "https://songbird-api.flare.network/ext/bc/C/rpc"
 
 class FactoryTestCase(unittest.TestCase):
   """Sanity tests for Songbird FTSO contract factories"""

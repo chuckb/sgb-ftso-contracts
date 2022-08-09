@@ -34,8 +34,7 @@ How to get prices of crypto assets tracked by the Songbird network:
 
   # Songbird network RPC endpoint
   # This is a free, rate-limited API node.
-  # Please do not abuse...
-  rpcurl = "https://songbird.towolabs.com/rpc"
+  rpcurl = "https://songbird-api.flare.network/ext/bc/C/rpc"
 
   # Init web3 with REST HTTP provider.
   web3 = Web3(Web3.HTTPProvider(rpcurl))
@@ -61,6 +60,7 @@ How to get prices of crypto assets tracked by the Songbird network:
    :maxdepth: 2
    :caption: Examples
 
+   source/examples/claim
    source/examples/delegation
    source/examples/encryption
    source/examples/events

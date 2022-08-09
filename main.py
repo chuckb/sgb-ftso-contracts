@@ -3,8 +3,7 @@ from web3 import Web3
 
 # Songbird network RPC endpoint
 # This is a free, rate-limited API node.
-# Please do not abuse...
-rpcurl = "https://songbird.towolabs.com/rpc"
+rpcurl = "https://songbird-api.flare.network/ext/bc/C/rpc"
 
 # Init web3 with REST HTTP provider.
 web3 = Web3(Web3.HTTPProvider(rpcurl))

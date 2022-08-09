@@ -3,7 +3,7 @@ from web3 import Web3
 from eth_account import Account
 import getpass
 
-rpcurl = "https://songbird.towolabs.com/rpc"
+rpcurl = "https://songbird-api.flare.network/ext/bc/C/rpc"
 
 # Init web3
 web3 = Web3(Web3.HTTPProvider(rpcurl))

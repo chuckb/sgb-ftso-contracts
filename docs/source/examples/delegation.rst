@@ -15,7 +15,7 @@ line and decrypts the private key for one-time use.
   from eth_account import Account
   import getpass
 
-  rpcurl = "https://songbird.towolabs.com/rpc"
+  rpcurl = "https://songbird-api.flare.network/ext/bc/C/rpc"
 
   # Init web3
   web3 = Web3(Web3.HTTPProvider(rpcurl))
@@ -66,7 +66,7 @@ line and decrypts the private key for one-time use.
   from eth_account import Account
   import getpass
 
-  rpcurl = "https://songbird.towolabs.com/rpc"
+  rpcurl = "https://songbird-api.flare.network/ext/bc/C/rpc"
 
   # Init web3
   web3 = Web3(Web3.HTTPProvider(rpcurl))
@@ -96,7 +96,7 @@ line and decrypts the private key for one-time use.
     # Build the undelegate transaction
     tx_parms["nonce"] = web3.eth.getTransactionCount(account.address)
     # Percentage in basis points = % * 100
-    tx = wNat.functions.delegate(web3.toChecksumAddress("ftso address goes here"), 10000).buildTransaction(tx_parms)
+    tx = wNat.functions.delegate(web3.toChecksumAddress("delegator address goes here"), 10000).buildTransaction(tx_parms)
     signed_tx = account.sign_transaction(tx)
 
     # Execute the transaction
